@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            width: 1100%;
+            max-width: 1100px;
+            height: auto;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color:  #663399;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #663399;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to IIT-BOMBAY</h1>
+        <img src="collegeimg.jpg" alt="College Image">
+        
+        <div>
+            <button class="button" onclick="window.location.href='placements.html'">Placements</button>
+        </div>
+
+        <div>
+            <button class="button" onclick="window.location.href='login.html'">Join Now</button>
+        </div>
+    </div>
+</body>
+</html>
